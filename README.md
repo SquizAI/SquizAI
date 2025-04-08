@@ -46,21 +46,6 @@
 </td></tr></table>
 </div>
 
-    class QuantumAIResearcher:
-        def __init__(self):
-            self.name = "Matthew Squarzoni"
-            self.domains = ["Quantum Computing", "Artificial Intelligence", "Neural Networks"]
-            self.mission = "Bridging quantum physics and AI to create conscious computing systems"
-            
-        def solve_problem(self, problem):
-            if problem.complexity == "high" and problem.interesting:
-                return self.apply_quantum_ai_principles(problem)
-            else:
-                return "Let's make this more challenging!"
-                
-        def collaborate(self, researchers):
-            return QuantumEntanglement.create_superposition_of_ideas(researchers)
-
 ---
 
 ### 🔭 About Me
@@ -235,65 +220,5 @@ I'm passionate about collaborations that push the boundaries of what's possible.
 
 </div>
 
-    // The Quantum AI Development Pattern
-    class QuantumAIExplorer {
-      constructor() {
-        this.name = "Matty";
-        this.state = this.createSuperposition([
-          { role: "AI_Engineer", probability: 0.85 },
-          { role: "Quantum_Researcher", probability: 0.75 },
-          { role: "Professor", probability: 0.65 },
-          { role: "Creative_Innovator", probability: 0.95 }
-        ]);
-        
-        this.tools = {
-          quantum: ["Qiskit", "PennyLane", "Cirq", "Q#"],
-          ai: ["TensorFlow", "PyTorch", "JAX", "Transformers"],
-          creativity: ["Curiosity", "Intuition", "Pattern_Recognition"]
-        };
-      }
-      
-      createSuperposition(states) {
-        // Creating a quantum superposition of multiple states
-        return new QuantumState(states);
-      }
-      
-      async solveComplexProblem(problem) {
-        if (!problem.isInteresting) {
-          return this.makeInteresting(problem);
-        }
-        
-        // Apply quantum parallelism to explore all solution paths simultaneously
-        const quantumSolution = await this.exploreQuantumParallelism(problem);
-        
-        // Collapse the solution to the most promising approach
-        return quantumSolution.collapse();
-      }
-      
-      buildProject(collaborators, domain) {
-        // Entangle minds for enhanced collective intelligence
-        const entangledTeam = this.entangle(collaborators);
-        
-        return {
-          innovation: Math.min(1.0, entangledTeam.creativity * 1.5),
-          execution: entangledTeam.skills[domain] * entangledTeam.motivation,
-          impact: entangledTeam.vision * entangledTeam.persistence
-        };
-      }
-      
-      learn(subject) {
-        // Knowledge acquisition follows quantum principles
-        this.knowledge[subject] = this.knowledge[subject] || 0;
-        this.knowledge[subject] += Math.sqrt(1 - this.knowledge[subject]);
-        return this.knowledge[subject];
-      }
-    }
 
-    // My approach to innovation and research
-    const matty = new QuantumAIExplorer();
-    matty.explore({
-      fields: ["AI", "Quantum_Computing", "Consciousness", "Creativity"],
-      prioritize: ["fun_projects", "cool_people", "boundary_pushing", "impact"],
-      avoid: ["boring_stuff", "negativity", "closed_systems"]
-    });
 
